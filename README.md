@@ -1,3 +1,5 @@
+https://admin-dashboard-gamma-lime-69.vercel.app/
+
 # Admin Dashboard
 
 A modern, responsive admin dashboard built with React, Material-UI, and Nivo charts. This dashboard provides a comprehensive interface for monitoring and managing your application's data, users, and analytics.
