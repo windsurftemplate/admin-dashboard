@@ -8,7 +8,9 @@ import Dashboard from './pages/Dashboard'
 import Users from './pages/Users'
 import Products from './pages/Products'
 import Analytics from './pages/Analytics'
-import Settings from './pages/Settings'
+import Settings from './pages/Settings';
+import Marketing from './pages/Marketing'; // Importing the Marketing page
+import ComparativeAnalytics from './pages/ComparativeAnalytics'; // Importing the Comparative Analytics page
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
             <Route path="products" element={<Products />} />
             <Route path="analytics" element={<Analytics />} />
             <Route path="settings" element={<Settings />} />
+            <Route path="marketing" element={<Marketing />} /> {/* Adding the Marketing route */}
+            <Route path="comparative-analytics" element={<ComparativeAnalytics />} /> {/* Adding the Comparative Analytics route */}
           </Route>
         </Routes>
       </Router>

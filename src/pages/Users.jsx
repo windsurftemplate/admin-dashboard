@@ -52,6 +52,30 @@ const initialUsers = [
     status: 'Inactive',
     lastLogin: '2024-12-05',
   },
+  {
+    id: 4,
+    name: 'Alice Brown',
+    email: 'alice@example.com',
+    role: 'Admin',
+    status: 'Active',
+    lastLogin: '2024-12-08',
+  },
+  {
+    id: 5,
+    name: 'Charlie Green',
+    email: 'charlie@example.com',
+    role: 'Editor',
+    status: 'Inactive',
+    lastLogin: '2024-12-04',
+  },
+  {
+    id: 6,
+    name: 'David White',
+    email: 'david@example.com',
+    role: 'Viewer',
+    status: 'Active',
+    lastLogin: '2024-12-03',
+  },
 ];
 
 const roles = ['Admin', 'Editor', 'Viewer'];

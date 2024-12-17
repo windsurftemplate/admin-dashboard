@@ -22,6 +22,8 @@ import {
   ShoppingCart as ShoppingCartIcon,
   BarChart as BarChartIcon,
   Settings as SettingsIcon,
+  Assessment as AssessmentIcon, // Existing icon for Marketing
+  CompareArrows as CompareArrowsIcon, // Importing the new icon for Comparative Analytics
 } from '@mui/icons-material';
 import { Outlet, useNavigate } from 'react-router-dom';
 
@@ -77,6 +79,8 @@ const menuItems = [
   { text: 'Products', icon: <ShoppingCartIcon />, path: '/products' },
   { text: 'Analytics', icon: <BarChartIcon />, path: '/analytics' },
   { text: 'Settings', icon: <SettingsIcon />, path: '/settings' },
+  { text: 'Marketing', icon: <AssessmentIcon />, path: '/marketing' }, // Existing Marketing entry
+  { text: 'Comparative Analytics', icon: <CompareArrowsIcon />, path: '/comparative-analytics' }, // New Comparative Analytics entry
 ];
 
 const DashboardLayout = () => {

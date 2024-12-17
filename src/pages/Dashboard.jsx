@@ -180,6 +180,83 @@ const Dashboard = () => {
             subtitle="vs last month"
           />
         </Grid>
+        {/* New Operational Metrics */}
+        <Grid item xs={12} sm={6} md={3}>
+          <StatCard
+            title="Avg Order Fulfillment Time"
+            value="2 days"
+            icon={<ShoppingCartIcon color="primary" />}
+            trend={-5.0}
+            subtitle="vs last month"
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <StatCard
+            title="Low Stock Alerts"
+            value="5 Products"
+            icon={<AttachMoneyIcon color="primary" />}
+            trend={2.0}
+            subtitle="vs last month"
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <StatCard
+            title="Sales per Employee"
+            value="$1,500"
+            icon={<PersonIcon color="primary" />}
+            trend={10.0}
+            subtitle="vs last month"
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <StatCard
+            title="Avg Task Completion Time"
+            value="1.5 hours"
+            icon={<VisibilityIcon color="primary" />}
+            trend={-1.0}
+            subtitle="vs last month"
+          />
+        </Grid>
+      </Grid>
+
+      {/* Customer Insights */}
+      <Grid container spacing={3} sx={{ mb: 3 }}>
+        <Grid item xs={12} sm={6} md={3}>
+          <StatCard
+            title="Customer Retention Rate"
+            value="75%"
+            icon={<PersonIcon color="primary" />}
+            trend={5.0}
+            subtitle="vs last month"
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <StatCard
+            title="Customer Lifetime Value (CLV)"
+            value="$1,200"
+            icon={<AttachMoneyIcon color="primary" />}
+            trend={10.0}
+            subtitle="vs last month"
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <StatCard
+            title="New vs Returning Customers"
+            value="60% New, 40% Returning"
+            icon={<ShoppingCartIcon color="primary" />}
+            trend={-2.0}
+            subtitle="vs last month"
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={3}>
+          <StatCard
+            title="Demographics Breakdown"
+            value="Age: 25-34, Gender: 60% Female"
+            icon={<PersonIcon color="primary" />}
+            trend={0.0}
+            subtitle="Current demographics"
+          />
+        </Grid>
       </Grid>
 
       {/* Charts */}
